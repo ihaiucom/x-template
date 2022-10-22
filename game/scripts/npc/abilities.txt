@@ -17,4 +17,23 @@
 		"AbilityCooldown" "1 2 3 4 "
 		"AbilityManaCost" "1 1 1 1"
 	}
+	"ability_zf_test" {
+		"BaseClass" "ability_lua"
+		"ScriptFile" "ability/ability_zf_test.lua"
+		"AbilityValues" {
+			"damage" "0.1 0.2 0.3 0.4"
+			"radius" "1 2 3 4"
+			"test" "1"
+			"another_test" "10.5 2.3 3.3 1.1"
+		}
+		"MaxLevel" "2"
+		"AbilityCooldown" "1 2 3 4 "
+		"AbilityManaCost" "1 1 1 1"
+		"AbilityTextureName" "warchasers_buff"
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT"
+		"AbilityUnitTargetTeam" "DOTA_UNIT_TARGET_TEAM_BOTH"
+		"AbilityUnitTargetType" "DOTA_UNIT_TARGET_ALL"
+		"AbilityUnitTargetFlags" "DOTA_UNIT_TARGET_FLAG_NONE"
+		"SpellImmunityType" "SPELL_IMMUNITY_ENMIES_NO"
+	}
 }

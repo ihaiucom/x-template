@@ -1,0 +1,201 @@
+"Heroes"
+{
+	"npc_zf_hero_fenghuang"
+	{
+        "override_hero"		"npc_dota_hero_phoenix"
+		"StatusHealth"                "3000"       // Base health.
+		"StatusHealthRegen"           "0"         // Health regeneration rate.
+		"StatusMana"                  "1000"         // Base mana.
+		"StatusManaRegen"             "0"         // Mana regeneration rate.
+		"ModelScale"                    "0.8"
+		"Ability1"		"monkey_king_wukongs_command"
+		"Ability2"		"ability_zf_test"
+		"Ability3"		"phoenix_sun_ray"
+		"Ability4"		"phoenix_sun_ray_toggle_move"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"phoenix_supernova"
+		"Ability7"		"phoenix_launch_fire_spirit"
+		"Ability8"		"phoenix_icarus_dive_stop"
+		"Ability9"		"phoenix_sun_ray_stop"
+		"Ability10"		"special_bonus_unique_phoenix_6"
+		"Ability11"		"special_bonus_spell_amplify_6"
+		"Ability12"		"special_bonus_unique_phoenix_3"
+		"Ability13"		"special_bonus_hp_500"
+		"Ability14"		"special_bonus_unique_phoenix_5"
+		"Ability15"		"special_bonus_unique_phoenix_2"
+		"Ability16"		"special_bonus_unique_phoenix_1"
+		"Ability17"		"special_bonus_unique_phoenix_4"
+	}
+	"npc_zf_hero_shunwukong"
+	{
+        "override_hero"		"npc_dota_hero_monkey_king"
+		"Model"		"models/heroes/monkey_king/monkey_king.vmdl"
+		"IdleExpression"		"scenes/monkey_king/monkey_king_exp_idle_01.vcd"
+		"SoundSet"		"Hero_MonkeyKing"
+		"PickSound"		"monkey_king_monkey_spawn_17"
+		"BanSound"		"monkey_king_monkey_anger_12"
+		"HeroSelectSoundEffect"		"Hero_MonkeyKing.Pick"
+		"GibType"		"default"
+		"Enabled"		"1"
+		"HeroUnlockOrder"		"2"
+		"Role"			"Carry,Escape,Disabler,Initiator"
+		"Rolelevels"	"2,2,1,1"
+		"Complexity"	"2"
+		"Team"		"Good"
+		"HeroID"		"114"
+		"HeroOrderID"	"113"
+		"NameAliases"		"mk"
+		"CMEnabled"		"1"
+		"new_player_enable"		"1"
+		"SimilarHeroes"		"95,44,70"
+		"ModelScale"		"0.8100"
+		"VersusScale"		"0.7800"
+		"LoadoutScale"		"0.8100"
+		"workshop_guide_name"		"shun wu kong"
+		"AbilityDraftDisabled"	"0"
+		"Ability1"		"monkey_king_boundless_strike"
+		"Ability2"		"monkey_king_tree_dance"
+		"Ability3"		"monkey_king_primal_spring"
+		"Ability4"		"monkey_king_jingu_mastery"
+		"Ability5"		"monkey_king_mischief"
+		"Ability6"		"monkey_king_wukongs_command"
+		"Ability7"		"monkey_king_primal_spring_early"
+		"Ability8"		"monkey_king_untransform"
+		"Ability10"		"special_bonus_unique_monkey_king_12"
+		"Ability11"		"special_bonus_unique_monkey_king_9"
+		"Ability12"		"special_bonus_unique_monkey_king_7"
+		"Ability13"		"special_bonus_unique_monkey_king_2"
+		"Ability14"		"special_bonus_unique_monkey_king_11"
+		"Ability15"		"special_bonus_unique_monkey_king_10"
+		"Ability16"		"special_bonus_unique_monkey_king_8"
+		"Ability17"		"special_bonus_unique_monkey_king_6"
+		"AbilityDraftIgnoreCount" "8"
+		"AbilityDraftAbilities"
+		{
+			"Ability1"		"monkey_king_boundless_strike"
+			"Ability2"		"monkey_king_tree_dance"
+			"Ability3"		"monkey_king_jingu_mastery"
+			"Ability4"		"monkey_king_wukongs_command"
+		}
+		"ArmorPhysical"		"2"
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"		"29"
+		"AttackDamageMax"		"33"
+		"AttackRate"		"1.700000"
+		"AttackAnimationPoint"		"0.45"
+		"AttackSpeedActivityModifiers"
+		{
+			"fast"		"170"
+			"faster"	"275"
+			"fastest"	"350"
+		}
+		"AttackAcquisitionRange"		"600"
+		"AttackRange"		"300"
+		"AttackRangeActivityModifiers"
+		{
+			"attack_normal_range"	"0"
+			"attack_long_range"		"200"
+		}
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"		"18"
+		"AttributeStrengthGain"		"2.8"
+		"AttributeBaseIntelligence"		"20"
+		"AttributeIntelligenceGain"		"1.8"
+		"AttributeBaseAgility"	"22"
+		"AttributeAgilityGain"	"3.700000"
+		"StatusHealth"		"2000.0"
+		"StatusHealthRegen"		"1.0"
+		"MovementSpeed"			"300"
+		"MovementSpeedActivityModifiers"
+		{
+			"walk"		"0"
+			"run"		"390"
+			"run_fast"	"440"
+		}
+		"HasAggressiveStance"	"0"
+		"BoundsHullName"		"DOTA_HULL_SIZE_SMALL"
+		"particle_folder"		"particles/units/heroes/hero_monkey_king"
+		"GameSoundsFile"		"soundevents/game_sounds_heroes/game_sounds_monkey_king.vsndevts"
+		"VoiceFile"		"soundevents/voscripts/game_sounds_vo_monkey_king.vsndevts"
+		// Items
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemSlots"
+		{
+			"0"
+			{
+				"SlotIndex"		"0"
+				"SlotName"		"weapon"
+				"SlotText"		"#LoadoutSlot_Weapon"
+				"TextureWidth"		"256"
+				"TextureHeight"		"256"
+				"MaxPolygonsLOD0"		"2500"
+				"MaxPolygonsLOD1"		"1000"
+			}
+			"1"
+			{
+				"SlotIndex"		"1"
+				"SlotName"		"head"
+				"SlotText"		"#LoadoutSlot_Head_Accessory"
+				"TextureWidth"		"512"
+				"TextureHeight"		"512"
+				"MaxPolygonsLOD0"		"3000"
+				"MaxPolygonsLOD1"		"1200"
+			}
+			"2"
+			{
+				"SlotIndex"		"2"
+				"SlotName"		"armor"
+				"SlotText"		"#LoadoutSlot_Armor"
+				"TextureWidth"		"512"
+				"TextureHeight"		"512"
+				"MaxPolygonsLOD0"		"4000"
+				"MaxPolygonsLOD1"		"1600"
+			}
+
+			"3"
+			{
+				"SlotIndex"		"3"
+				"SlotName"		"shoulder"
+				"SlotText"		"#LoadoutSlot_Shoulder"
+				"TextureWidth"		"512"
+				"TextureHeight"		"512"
+				"MaxPolygonsLOD0"		"3000"
+				"MaxPolygonsLOD1"		"1200"
+			}
+			"4"
+			{
+				"SlotIndex"		"4"
+				"SlotName"		"taunt"
+				"SlotText"		"#LoadoutSlot_Taunt"
+			}
+			"5"
+			{
+				"SlotIndex" "5"
+				"SlotName" "ability_effects_1"
+				"SlotText" "monkey_king_boundless_strike"
+				"DisplayInLoadout" "0"
+			}	
+			"6"
+			{
+				"SlotIndex" "6"
+				"SlotName" "ability_effects_4"
+				"SlotText" "monkey_king_wukongs_command"
+				"DisplayInLoadout" "0"
+			}
+		}
+		"Bot"
+		{
+			"HeroType"		"DOTA_BOT_SEMI_CARRY | DOTA_BOT_GANKER"
+			"LaningInfo"
+			{
+				"SoloDesire"		"0"
+				"RequiresBabysit"		"2"
+				"ProvidesBabysit"		"0"
+				"SurvivalRating"		"2"
+				"RequiresFarm"		"2"
+				"ProvidesSetup"		"0"
+				"RequiresSetup"		"1"
+			}
+		}
+	}
+}
